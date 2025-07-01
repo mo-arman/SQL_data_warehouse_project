@@ -5,7 +5,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ## 🏗️ Data Architecture
 
-![Data warehouse Project Architecture drawio](https://github.com/user-attachments/assets/22c54572-d922-4f92-a51f-6926adb71c92)
+![Data warehouse Project Architecture drawio](https://github.com/user-attachments/assets/9e42f337-8b0a-4d08-9162-f610a19d31f6)
 
 ## 📖 Project Overview
 This project involves:
