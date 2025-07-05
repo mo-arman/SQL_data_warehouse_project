@@ -1,55 +1,55 @@
-## Data Warehouse and Analytics Project
+# 🗃️ SQL Data Warehouse & Analytics Project
 
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to my **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates how to design, build, and leverage a full-scale data warehouse for business intelligence — using SQL and modern data architecture principles.
 
-## 🏗️ Data Architecture
+---
 
-![Data warehouse Project Architecture drawio](https://github.com/user-attachments/assets/9e42f337-8b0a-4d08-9162-f610a19d31f6)
+## 🧱 Project Overview
 
-## 📖 Project Overview
-This project involves:
+This project showcases the complete life cycle of a data warehouse system using the **Medallion Architecture** (Bronze → Silver → Gold).  
+It includes:
 
-Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- 🏗️ **Data Architecture**: Designed a multi-layered warehouse model  
+- 🔄 **ETL Pipelines**: Extracted, transformed, and loaded data from ERP & CRM sources  
+- 🧮 **Data Modeling**: Created fact and dimension tables for analytical querying  
+- 📊 **Analytics & Reporting**: Delivered SQL-based reports for business insight  
 
-SQL Development
-Data Architect
-Data Engineering
-ETL Pipeline Developer
-Data Modeling
-Data Analytics
+---
 
+## 📌 Key Business Objectives
 
-## 🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+✅ Unify sales and customer data from multiple systems  
+✅ Build a scalable SQL-based warehouse using **best practices**  
+✅ Generate insights for stakeholders on:
+- Customer behavior
+- Product performance
+- Sales trends
 
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-Scope: Focus on the latest dataset only; historization of data is not required.
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+---
 
-## BI: Analytics & Reporting (Data Analysis)
+## 🧠 Skills Demonstrated
 
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
+| Category            | Skills Used                                       |
+|---------------------|---------------------------------------------------|
+| Data Engineering    | SQL, ETL, T-SQL, SSMS                             |
+| Data Modeling       | Star Schema, Fact & Dimension Tables              |
+| Analytics           | SQL Reporting, KPI Generation                    |
+| Data Quality        | Data cleansing, NULL handling, gender fallback   |
+| Tools & Tech        | SQL Server, GitHub, ER Diagrams                  |
 
-Customer Behavior
-Product Performance
-Sales Trends
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+---
 
-For more details, refer t
+## 🧭 Architecture Overview
 
-## 🛡️ License
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+📌 Built on the **Medallion Architecture** using 3 core layers:
 
-## 🌟 About Me
-Hi there! I'm Mohammad Arman. 
+- **Bronze Layer** → Raw ingestion from CSVs (ERP & CRM)  
+- **Silver Layer** → Cleansed and structured staging tables  
+- **Gold Layer** → Business-ready fact and dimension views
+
+📐 ![Data warehouse Project Architecture drawio](https://github.com/user-attachments/assets/9e42f337-8b0a-4d08-9162-f610a19d31f6)
+---
+
+## 📦 Project Structure
+
